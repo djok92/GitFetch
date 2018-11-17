@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+
+html>* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("../img/bg-main.jpg");
+  height: 100vh;
+}
+
+.main__title {
+  font-size: 64px;
+  color: #eeb83b;
+}
+
+.main__description {
+  font-size: 32px;
+  color: #c4c4c4;
+}
+
+.main__input-container {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.form>.form__input {
+  background: transparent;
+  color: #c4c4c4;
+  padding: 5px;
+  width: 350px;
+  border: none;
+  border-bottom: 2px solid #c4c4c4;
+  margin-right: 20px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form>.form__input:hover,
+.form>.form__input:active,
+.form>.form__input:focus {
+  outline: none;
+}
+
+.form>.form__button {
+  padding: 10px 30px;
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #eeb83b;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form>.form__button:hover {
+  background: #eeb83b;
+  border-color: #c4c4c4;
+}
+
+.form>.form__button:hover,
+.form>.form__button:active,
+.form>.form__button:focus {
+  outline: none;
+}
+
+.main__profile-container {
+  margin-top: 50px;
+  display: none;
+}
+
+.main__profile-container p {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #eeb83b;
+}

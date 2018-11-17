@@ -1,0 +1,14 @@
+{
+  "name": "github-finder",
+  "version": "1.0.0",
+  "description": "small search engine for github",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Đokić",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
